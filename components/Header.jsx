@@ -31,6 +31,11 @@ function Header() {
                 {/* Navbar for Desktop */}
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
+                    <Button className="ml-4">
+                        <Link href="/contact">
+                            Here me
+                        </Link>
+                    </Button>
                 </div>
 
                 {/* Mobile Navbar Toggle */}
