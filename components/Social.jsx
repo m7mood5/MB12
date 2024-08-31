@@ -2,10 +2,10 @@ import React from 'react'
 import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from 'react-icons/fi';
 function Social() {
     const socialMediaLinks = [
-        { name: "LinkedIn", url: "https://www.linkedin.com/in/mahmoud-barakat", icon: FiLinkedin },
-        { name: "GitHub", url: "https://github.com/mahmoud-barakat", icon: FiGithub },
-        { name: "Twitter", url: "https://twitter.com/mahmoud_barakat", icon: FiTwitter },
-        { name: "Instagram", url: "https://www.instagram.com/mahmoud_barakat", icon: FiInstagram },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/mahmoud-barakat-56a744250/", icon: FiLinkedin },
+        { name: "GitHub", url: "https://github.com/m7mood5", icon: FiGithub },
+        { name: "Twitter", url: "https://x.com/?lang=ar", icon: FiTwitter },
+        { name: "Instagram", url: "https://www.instagram.com/mb12.mb12.1/", icon: FiInstagram },
     ];
 
     return (

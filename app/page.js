@@ -21,10 +21,12 @@ export default function Home() {
               Front-end developer with <span className="text-accent-default">3</span> years of experience in designing and developing responsive and interactive web and mobile applications. Strong understanding of UI/UX principles and a keen eye for design, aiming to create seamless user experiences.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button className="uppercase flex items-center gap-2" variant="outline" size="lg">
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <a download href="/cv.pdf">
+                <Button className="uppercase flex items-center gap-2" variant="outline" size="lg">
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               {/* Social Media Links */}
               <Social />
             </div>
