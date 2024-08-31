@@ -20,7 +20,7 @@ function Nav() {
                 <Link href={link.path} key={index} passHref>
                     <motion.span
                         // Animation on hover
-                        whileHover={{ scale: 1.1, color: "#00ff99" }}
+                        whileHover={{ scale: 1.1, color: "#0174f2" }}
                         transition={{ type: "spring", stiffness: 300, damping: 20 }}
                         className={`
                             capitalize font-medium transition-all

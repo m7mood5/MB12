@@ -35,7 +35,7 @@ export default function Home() {
           <div className="mt-8 xl:mt-0">
             <motion.div
               initial={{ scale: 1 }}
-              whileHover={{ scale: 1.1, borderColor: "#00ff99" }}
+              whileHover={{ scale: 1.1, borderColor: "#0174f2" }}
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
               className="rounded-full p-1 border-4 border-white transition-all duration-500 ease-in-out shadow-lg"
             >
